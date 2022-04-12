@@ -56,7 +56,7 @@ public class ColorController : MonoBehaviour
             lastClickedButton = null;
             previousLastClickedButton = null;
         }
-        else if (lastClickedButton == "Purple" && previousLastClickedButton == "Blue" && lastClickedButton == "Blue" &&
+        else if (lastClickedButton == "Purple" && previousLastClickedButton == "Blue" || lastClickedButton == "Blue" &&
                  previousLastClickedButton == "Purple")
         {
             DarkBlue.SetActive(true);
